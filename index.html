@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>God of War Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="video-container">
+        <video id="background-video" autoplay loop muted>
+            <source src="https://motionbgs.com/media/3121/kratos.960x540.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="quiz-container">
+        <div id="status-bar">
+            <span id="timer">Time: 10</span>
+            <span id="current-score">Score: 0</span>
+        </div>
+        <div id="quiz">
+            <div id="question-container">
+                <h2 id="era"></h2>
+                <p id="question"></p>
+            </div>
+            <div id="answers">
+                </div>
+        </div>
+        <div id="result" class="hidden">
+            <h2>Quiz Completed!</h2>
+            <p id="score"></p>
+        </div>
+        <div id="image-container" class="image-container"></div>
+        <div id="congrats-message"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,166 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -1; /* Place the video behind other elements */
+}
+
+#background-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.quiz-container {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+  overflow: hidden;
+}
+
+/* ... rest of your CSS styles ... */
+
+#status-bar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #fff;
+  position: relative;
+  z-index: 10;
+  margin-bottom: 15px;
+}
+
+#question {
+  color: #ffffff; /* Blood-red color */
+  font-size: 1.2rem;
+  position: relative;
+  z-index: 10;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+#answers button {
+  background: #444;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  width: 100%;
+  font-size: 1.1rem;
+}
+
+#answers button:hover {
+  background: #666;
+  box-shadow: 0px 0px 10px 3px #0370ff; /* Red shadow effect */
+}
+
+#answers button.correct {
+  background: #28a745;
+}
+
+#answers button.wrong {
+  background: #dc3545;
+}
+
+.hidden {
+  display: none;
+}
+
+#result h2 {
+  color: #f4f4f4;
+}
+
+#result p {
+  color: #ddd;
+}
+
+/* Blood drop animation */
+.blood-drop {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 5px;
+  height: 10px;
+  background-color: #d60000;
+  border-radius: 50%;
+  opacity: 0;
+  animation: fall 2s linear infinite;
+}
+
+@keyframes fall {
+  0% {
+      top: 0;
+      opacity: 1;
+  }
+  100% {
+      top: 100%;
+      opacity: 0;
+  }
+}
+
+/* Styling for the image container */
+.image-container {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
+  border-radius: 10px;
+  transition: background-image 0.5s ease-in-out;
+}
+
+#image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 600px) {
+  .quiz-container {
+      padding: 15px;
+      width: 90%;
+  }
+
+  h2 {
+      font-size: 1.3rem;
+  }
+
+  #question {
+      font-size: 1rem;
+  }
+
+  #answers button {
+      padding: 8px 12px;
+      font-size: 1rem;
+  }
+}
