@@ -1,4 +1,5 @@
-God of War Quiz
+ Quiz Game
+ 
 
 The God of War Quiz is an interactive web-based quiz inspired by the mythology and themes from the legendary God of War series. This project features questions spanning Greek and Norse mythology, combined with visually engaging elements like a looping thematic background video, question-specific images, and a dynamic interface. Designed for fans of the series and mythology enthusiasts alike, the quiz tests your knowledge while providing an immersive experience with its responsive design and timed gameplay.
 
