@@ -1,10 +1,74 @@
- Quiz Game
- 
+# 🏹 God of War Quiz Game
 
-The God of War Quiz is an interactive web-based quiz inspired by the mythology and themes from the legendary God of War series. This project features questions spanning Greek and Norse mythology, combined with visually engaging elements like a looping thematic background video, question-specific images, and a dynamic interface. Designed for fans of the series and mythology enthusiasts alike, the quiz tests your knowledge while providing an immersive experience with its responsive design and timed gameplay.
+## ⚔️ Overview
+The **God of War Quiz** is an immersive, web-based trivia game designed for **fans of the legendary God of War series** and mythology enthusiasts. Spanning **Greek and Norse mythology**, this quiz tests your knowledge with **visually engaging elements**, including **dynamic backgrounds, interactive UI, and question-specific images**. The game offers a **timed challenge** with **real-time feedback**, ensuring an exciting and educational experience for players.
 
-The project consists of three main files: `index.html`, which structures the quiz interface; `styles.css`, which ensures a visually appealing and responsive design; and `script.js`, which powers the logic for displaying questions, handling the timer, and managing user interactions. The quiz dynamically updates with images and questions, ensuring an engaging user experience on both desktop and mobile devices.
+## 🎮 Features
+- **🔥 Immersive UI & Thematic Design** – A **looping background video**, inspired by Kratos’ epic journey, enhances the gameplay experience.
+- **🧠 Mythology-Based Questions** – Test your knowledge of **Greek and Norse mythology**, crucial to the God of War series.
+- **🕹️ Interactive Gameplay** – Includes **timers, animations, and real-time feedback** to keep the challenge engaging.
+- **📸 Visual Enhancements** – Each question is accompanied by a relevant **image** to create a deeper connection with the lore.
+- **⚡ Dynamic Question Flow** – Questions are randomly generated to **prevent repetition** and keep the experience fresh.
+- **📱 Fully Responsive** – Works seamlessly across **desktops, tablets, and mobile devices**.
 
-Some of the assets, such as the background video and question-specific images, are sourced from publicly available media, and credit goes to their respective creators. Additionally, I utilized ChatGPT to assist in the development of certain code sections and the overall project structure, which helped streamline the process.
+## 🏗️ Project Structure
+The project consists of three main files:
 
-To run the quiz, simply clone the repository and open the `index.html` file in any modern web browser. Contributions are welcome, and anyone can fork the repository or raise issues to improve and expand the project further. 
+| File | Description |
+|------|------------|
+| `index.html` | Structures the quiz interface and loads assets. |
+| `styles.css` | Handles the visual design, animations, and responsiveness. |
+| `script.js` | Powers the quiz logic, timer, score tracking, and UI updates. |
+
+## 🔧 Installation & Setup
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/god-of-war-quiz.git
+   ```
+2. **Navigate to the project folder**:
+   ```bash
+   cd god-of-war-quiz
+   ```
+3. **Run the game**:
+   - Simply **open `index.html`** in any modern web browser.
+   - No additional setup required! 🎉
+
+## 🛠️ Technologies Used
+- **HTML5** – Structure and content.
+- **CSS3** – Styling, animations, and responsiveness.
+- **JavaScript (ES6+)** – Game logic, timer, and interactions.
+- **Publicly Available Assets** – Background video and question-specific images (credits to respective creators).
+
+## 🚀 Future Enhancements
+- **Leaderboard & High Scores** – Track player progress and encourage replayability.
+- **More Mythologies** – Expand to include Egyptian, Japanese, and other mythological themes.
+- **Multiplayer Mode** – Challenge friends in real-time quizzes.
+- **Audio & Voice Narration** – Enhance immersion with thematic sound effects.
+
+## 🤝 Contributing
+Contributions are welcome! To contribute:
+1. **Fork the repository**.
+2. **Create a new branch** (`feature-name`):
+   ```bash
+   git checkout -b feature-name
+   ```
+3. **Make your changes & commit**:
+   ```bash
+   git commit -m "Add new feature"
+   ```
+4. **Push the branch**:
+   ```bash
+   git push origin feature-name
+   ```
+5. **Submit a Pull Request**. 🎯
+
+## 📜 Credits & Acknowledgments
+- **God of War™** – All rights to the franchise belong to **Santa Monica Studio & PlayStation**.
+- **Images & Videos** – Sourced from publicly available media, with credit to original creators.
+- **Development Assistance** – Utilized **ChatGPT** for structuring and optimizing the codebase.
+
+## 🏆 Play Now & Test Your Knowledge!
+⚡ **Are you ready to prove your mastery over the myths?** Open the quiz and embark on an epic journey! ⚔️
+
+
+
